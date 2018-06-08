@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="340dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape2"
+
+    android:layout_gravity="center"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+
+        >
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Discussion"
+            android:textSize="20dp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:drawableStart="@drawable/person"
+            android:drawableLeft="@drawable/person"
+            android:background="@drawable/shape3"
+            android:drawablePadding="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Questions"
+            android:textSize="20dp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:drawableStart="@drawable/questions"
+            android:drawableLeft="@drawable/questions"
+            android:background="@drawable/shape3"
+            android:layout_marginTop="4dp"
+            android:drawablePadding="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Followers"
+            android:textSize="20dp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:drawableStart="@drawable/followers"
+            android:drawableLeft="@drawable/followers"
+            android:background="@drawable/shape3"
+            android:layout_marginTop="4dp"
+            android:drawablePadding="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Message"
+            android:textSize="20dp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:drawableStart="@drawable/message"
+            android:drawableLeft="@drawable/message"
+            android:background="@drawable/shape3"
+            android:layout_marginTop="4dp"
+            android:drawablePadding="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Add People"
+            android:drawableLeft="@drawable/personadd"
+            android:textSize="20dp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            android:drawableStart="@drawable/personadd"
+            android:background="@drawable/shape3"
+            android:layout_marginTop="4dp"
+            android:drawablePadding="20dp"
+
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"></LinearLayout>
+    <LinearLayout
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/notification2"
+        android:orientation="horizontal">
+        <ImageView
+            android:padding="8dp"
+            android:layout_gravity="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_name2"/>
+        <LinearLayout
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="4dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="#000000"
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Public on the web"
+
+                android:textColor="#78909C"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/notification2"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:text="Hello Sample Text Hello Sample Text Hello Sample Text Hello Sample Text Hello Sample Text" />
+
+    <LinearLayout
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/notification"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:cropToPadding="false"
+            android:scaleType="centerInside"
+            android:src="@drawable/arrowleft"
+            android:paddingRight="25dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:src="@drawable/likebtn"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="200"
+            android:textSize="18dp"
+            android:padding="5dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:scaleType="centerInside"
+            android:src="@drawable/arrowright"
+            android:paddingLeft="25dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/xpir_shape"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Hello Sample text Hello Sample text Hello Sample text"
+        android:padding="14dp"
+        android:textSize="14dp"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+
+</LinearLayout>
