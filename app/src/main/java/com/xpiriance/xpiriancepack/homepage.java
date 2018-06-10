@@ -8,6 +8,7 @@ import android.os.Bundle;
 
 import android.support.v7.app.AppCompatActivity;
 
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import android.widget.ImageView;
@@ -21,13 +22,16 @@ public class homepage extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
 
         myDialog=new Dialog(this);
 
 
 
 
-        ImageView img1 = (ImageView) findViewById(R.id.arrow1);
+        ImageView img1 = (ImageView) findViewById(R.id.menupop);
         ImageView img2=(ImageView)findViewById(R.id.arrow2);
         img1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
